@@ -4,7 +4,7 @@
 #include <Dabble.h>
 
 
-int MAX_SPEED = 150; //Max speed the wheels can move while going forward and backward
+int MAX_SPEED = 150; //Max speed the wheels can move while moving forward and backward
 int turnSpeed = 120; // Max speed the wheels can move when turning
 int speedSet = 0; // Variable used in for loops later on where we will will gradually increase the motor speed
 bool atSpeed = false; // Used to figure out if the car is moving already or not, so we don't run our motor acceleration code
