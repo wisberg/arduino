@@ -13,6 +13,7 @@ char command; //This var is used to store the command we receive from the Blueto
 
 
 //Motor Declarations using the AF_DCMotor Library
+//*Keep in mind, these declarations might be different for your car. Test each one to see which wheel it controls*
 AF_DCMotor motor1(1, MOTOR12_1KHZ); //BACK LEFT
 AF_DCMotor motor2(2, MOTOR12_1KHZ); // BACK RIGHT
 AF_DCMotor motor3(3, MOTOR34_1KHZ); // FRONT LEFT
